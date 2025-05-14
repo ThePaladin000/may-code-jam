@@ -12,4 +12,6 @@
 
 - [@ThePaladin000](https://github.com/ThePaladin000)
 
+- [@LayZ092](https://github.com/LayZ092)
+
 **TODO: add yourself to the README file**
