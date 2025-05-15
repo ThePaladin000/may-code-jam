@@ -1,0 +1,7 @@
+.spin__content {
+    padding: 360px, 175px, 230px, 765px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+;
+}
