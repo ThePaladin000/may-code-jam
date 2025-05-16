@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 142px;
+  font-size: 32px;
 }
 
 .spin__content {
@@ -13,24 +14,29 @@
   background-color: rgba(255, 255, 255, 1);
   border-radius: 35px;
   width: 500px;
-  height: 350px;
-}
-
-.spin__experience {
-  padding: 30px 44px 0;
-}
-
-.spin__exercise {
-  padding-left: 44px;
+  height: 336.29px;
 }
 
 .spin__name {
-  margin-top: 0;
+  margin: 0;
+  padding: 27.86px 24px;
 }
 
 .spin__btn {
   border-radius: 25px;
+  width: 122px;
+  height: 33.63px;
+  font-size: 16px;
+  background-color: lightslategrey;
+  color:  rgba(255, 255, 255, 1);
+  cursor: pointer;
+  border: none;
 }
+
+.spin__btn:hover {
+   background-color: rgba(113, 202, 210, 1);
+}
+
 
 .spin__wheel {
   height: 475px;
@@ -38,15 +44,16 @@
   margin-right: 0;
   padding: 360px, 175px, 230px, 765px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .spin__wheel-arrow {
-  width: 100px;
-  padding-bottom: 45px;
-}
-
-.spin__wheel-spinner {
+  display: flex;
+  width: 73.64px;
+  height: 85.88px;
+  padding-bottom: 540px;
+  position: absolute;
+  z-index: 1;
 }
