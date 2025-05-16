@@ -1,0 +1,66 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.modal__content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  position: relative;
+  border: #333 solid 4px;
+}
+
+.modal__title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal__workout-display {
+  background-color: #71cad2;
+  color: black;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal__button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s;
+  margin-top: 32px;
+}
+
+.modal__button:hover {
+  background-color: #71cad2;
+  transform: scale(1.05);
+}
+
+.modal__button:active {
+  background-color: #8e42a1;
+  transform: scale(1.05);
+}
