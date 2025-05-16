@@ -1,2 +1,3 @@
-@import "./footer.css";
-@import "./header.css";
+.page {
+  background-color: rgba(113, 202, 210, 1);
+}
