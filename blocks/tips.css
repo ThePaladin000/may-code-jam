@@ -1,0 +1,54 @@
+.tips {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.tips__container {
+  width: 100%;
+}
+
+.tips__title {
+  color: #4a3fff;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.tips__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 11px;
+}
+
+.tips__box {
+  background-color: white;
+  border-radius: 16px;
+  padding: 11px;
+  transition: transform 0.3s ease;
+}
+
+.tips__box:hover {
+  cursor: default;
+  transform: translateY(-5px);
+}
+
+.tips__subtitle {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.tips__icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.tips__description {
+  margin: 0;
+  font-size: 16px;
+}
