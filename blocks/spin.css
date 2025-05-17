@@ -38,6 +38,7 @@
 
 .spin__btn:hover {
   background-color: #62b8a6;
+  transform: translateY(-5px);
 }
 
 .spin__wheel {
