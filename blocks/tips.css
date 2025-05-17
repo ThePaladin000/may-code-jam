@@ -15,7 +15,7 @@
 }
 
 .tips__title {
-  color: #4a3fff;
+  color: hsl(0, 0%, 0%);
   font-size: 28px;
   margin-top: 0;
   margin-bottom: 24px;
@@ -28,10 +28,10 @@
 }
 
 .tips__box {
-  background-color: white;
   border-radius: 16px;
   padding: 11px;
   transition: transform 0.3s ease;
+  background-color: #68c5b165;
 }
 
 .tips__box:hover {

@@ -9,6 +9,6 @@ body {
 .page {
   min-height: 100vh;
   min-width: 100vw;
-  background-color: rgba(113, 202, 210, 1);
   overflow: hidden;
+  background: radial-gradient(#62b8a6, #293f50)
 }

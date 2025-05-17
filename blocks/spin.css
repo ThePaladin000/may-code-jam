@@ -30,14 +30,15 @@
   width: 122px;
   height: 33.63px;
   font-size: 16px;
-  background-color: lightslategrey;
-  color: rgba(255, 255, 255, 1);
+  background-color: #293f50;
+  color: #fff;
   cursor: pointer;
   border: none;          
 }
 
 .spin__btn:hover {
-  background-color: rgba(113, 202, 210, 1);
+  background-color: #62b8a6;
+  transform: translateY(-5px);
 }
 
 .spin__wheel {

@@ -37,7 +37,7 @@
 }
 
 .modal__workout-display {
-  background-color: #71cad2;
+  background-color: #62b8a6;
   color: black;
   padding: 25px;
   border-radius: 10px;
@@ -74,7 +74,7 @@
 }
 
 .modal__button:hover {
-  background-color: #71cad2;
+  background-color: #62b8a6;
   transform: scale(1.05);
 }
 
