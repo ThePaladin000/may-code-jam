@@ -1,6 +1,6 @@
 const modal = document.querySelector(".modal");
 const closeButton = document.querySelector(".modal__close-btn");
-const spinButton = document.querySelector(".spin__wheel-arrow");
+const spinWheel = document.querySelectorAll(".spin__wheel");
 
 function modalOpen() {
   modal.classList.add("modal__open");
@@ -19,4 +19,7 @@ function keydownListener(event) {
 }
 
 closeButton.addEventListener("click", modalClose);
-spinButton.addEventListener("click", modalOpen);
+
+spinWheel.forEach((image) => {
+  image.addEventListener("click", modalOpen);
+});
