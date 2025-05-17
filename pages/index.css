@@ -4,3 +4,10 @@
 @import url(../blocks/footer.css);
 @import url(../blocks/tips.css);
 @import url(../blocks/modal.css);
+
+@font-face {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/KumbhSans-VariableFont_YOPQ/wght.ttf) format("truetype");
+}
