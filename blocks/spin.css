@@ -5,21 +5,24 @@
   justify-content: center;
   gap: 142px;
   font-size: 32px;
+  margin: 0;
+  padding: 27.86px 24px;
 }
 
 .spin__content {
-  padding: 360px, 175px, 230px, 765px;
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 35px;
   width: 500px;
-  height: 336.29px;
+}
+
+.spin__levels {
+ padding: 15px 40px;
 }
 
 .spin__name {
   margin: 0;
-  padding: 27.86px 24px;
 }
 
 .spin__btn {
@@ -30,7 +33,7 @@
   background-color: lightslategrey;
   color: rgba(255, 255, 255, 1);
   cursor: pointer;
-  border: none;
+  border: none;          
 }
 
 .spin__btn:hover {

@@ -22,7 +22,7 @@
 
 .footer__image {
   width: 300px;
-  height: 90px;
+  height: 150px;
   border-radius: 10px;
 }
 
@@ -35,7 +35,12 @@
 }
 
 .footer__column-left {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   z-index: 1;
   max-width: 150px;
+}
+
+.footer__contributors {
+  list-style: none;
 }
