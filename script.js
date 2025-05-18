@@ -7,6 +7,8 @@ const spinnerWheel = document.querySelector(".spin__wheel-spinner");
 const spinForm = document.querySelector(".spin__form");
 const experienceRadios = document.querySelectorAll('input[name="experience"]');
 const exerciseRadios = document.querySelectorAll('input[name="exercise"]');
+const spinAgainButton = document.querySelector(".modal__button");
+
 let currentRotation = 0;
 
 function modalOpen() {
@@ -79,6 +81,10 @@ spinForm.addEventListener("submit", (e) => {
     'input[name="exercise"]:checked'
   )?.value;
   spin(experience, exercise);
+});
+
+spinAgainButton.addEventListener("click", () => {
+  modalClose();
 });
 
 // DO NOT DELETE NOTES
