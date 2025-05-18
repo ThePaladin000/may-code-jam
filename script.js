@@ -1,7 +1,12 @@
+import { workoutPlans } from "./data/constants.js";
+
 const modal = document.querySelector(".modal");
 const closeButton = document.querySelector(".modal__close-btn");
 const spinWheel = document.querySelectorAll(".spin__wheel");
 const spinnerWheel = document.querySelector(".spin__wheel-spinner");
+const spinForm = document.querySelector(".spin__form");
+const experienceRadios = document.querySelectorAll('input[name="experience"]');
+const exerciseRadios = document.querySelectorAll('input[name="exercise"]');
 let currentRotation = 0;
 
 function modalOpen() {
@@ -26,7 +31,7 @@ function keydownListener(event) {
 
 closeButton.addEventListener("click", modalClose);
 
-function spin() {
+function animateWheel() {
   const rotations = Math.floor(Math.random() * 4) + 4;
   const baseRotation = rotations * 360;
   const extraDegrees = Math.floor(Math.random() * 348);
@@ -42,9 +47,39 @@ function spin() {
   }, 3000);
 }
 
-closeButton.addEventListener("click", modalClose);
+function getRandomExercise(experienceLevel, exerciseType) {
+  const exercises = workoutPlans[experienceLevel][exerciseType];
+  return exercises[Math.floor(Math.random() * exercises.length)];
+}
 
-spinnerWheel.addEventListener("click", spin);
+function spin(experienceLevel, exerciseType) {
+  if (!experienceLevel) {
+    alert("Please select an experience level before spinning!");
+  }
+
+  if (!exerciseType) {
+    alert("Please select an exercise type before spinning!");
+  }
+
+  if (experienceLevel && exerciseType) {
+    animateWheel();
+    const randomExercise = getRandomExercise(experienceLevel, exerciseType);
+    document.querySelector(".modal__workout-display").textContent =
+      randomExercise;
+    modalOpen();
+  }
+}
+
+spinForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const experience = document.querySelector(
+    'input[name="experience"]:checked'
+  )?.value;
+  const exercise = document.querySelector(
+    'input[name="exercise"]:checked'
+  )?.value;
+  spin(experience, exercise);
+});
 
 // DO NOT DELETE NOTES
 // I outlined the order of operations below, but did use DOT to help figure out the spin function

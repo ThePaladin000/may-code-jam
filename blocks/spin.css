@@ -6,7 +6,6 @@
   gap: 142px;
   font-size: 32px;
   margin: 0;
-  padding: 27.86px 24px;
 }
 
 .spin__content {
@@ -18,7 +17,7 @@
 }
 
 .spin__levels {
- padding: 15px 40px;
+  padding: 15px 40px;
 }
 
 .spin__name {
@@ -33,12 +32,40 @@
   background-color: #293f50;
   color: #fff;
   cursor: pointer;
-  border: none;          
+  border: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  appearance: none;
+  -webkit-appearance: none;
+  position: relative;
+}
+
+.spin__btn::before {
+  content: attr(value);
+  text-transform: capitalize;
 }
 
 .spin__btn:hover {
   background-color: #62b8a6;
   transform: translateY(-5px);
+}
+
+.spin__btn:checked {
+  background-color: #62b8a6;
+  transform: translateY(-5px);
+}
+
+.spin__radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.spin__radio-group label {
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
 }
 
 .spin__wheel {
@@ -59,4 +86,25 @@
   padding-bottom: 540px;
   position: absolute;
   z-index: 1;
+}
+
+.spin__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.spin__submit {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  z-index: 2;
+}
+
+.spin__submit-image {
+  width: 75px;
+  height: auto;
 }
