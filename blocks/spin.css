@@ -108,3 +108,9 @@
   width: 75px;
   height: auto;
 }
+
+@media screen and (max-width: 1100px) {
+  .spin {
+    flex-direction: column;
+  }
+}

@@ -90,7 +90,3 @@ spinForm.addEventListener("submit", (e) => {
 // Click Spin again button, which closes modal
 // User can click the spinner again for another exercise
 // Reset spinner to original position
-
-// spinWheel.forEach((image) => {
-//   image.addEventListener("click", modalOpen);
-// });
