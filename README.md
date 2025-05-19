@@ -27,3 +27,5 @@ This website was created by team 4 for TripleTen's May-Code-Jam.
 ### Instructions
 
 To access the app, simply click on the SpinFit title in this description.
+
+Here is a [presentation](https://drive.google.com/file/d/1TzKztp8Pmj9nvg_tGeL4hOIf7fhT7abs/view) of our project.
