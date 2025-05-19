@@ -6,9 +6,7 @@ SpinFit is a web app for teens who want to get in shape, stay in shape, or start
 
 This website was created by team 4 for TripleTen's May-Code-Jam.
 
-### Team 4
-
-# The Code Warriors
+## The Code Warriors
 
 - [@k-tessai](https://github.com/k-tessai/k-tessai)
 
