@@ -1,6 +1,6 @@
 # TripleTen Code Jam
 
-## may-code-jam
+## [may-code-jam](https://youtube.com/live/DbwVFzvWWEw?feature=share)
 
 ### Team 4
 
@@ -14,4 +14,14 @@
 
 - [@LayZ092](https://github.com/LayZ092)
 
-**TODO: add yourself to the README file**
+## Description
+
+SpinFit is a web app for teens who want to get in shape, stay in shape, or start healthy exercise habits in a fun and interactive way. Simply select your fitness level, choose an exercise type, and spin the wheel for a random exercise appropriate for your level!
+
+### Technologies
+
+- Figma
+- BEM methodology
+- Responsive CSS
+- JS modules
+- Functional JS

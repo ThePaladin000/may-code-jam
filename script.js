@@ -2,11 +2,8 @@ import { workoutPlans } from "./data/constants.js";
 
 const modal = document.querySelector(".modal");
 const closeButton = document.querySelector(".modal__close-btn");
-const spinWheel = document.querySelectorAll(".spin__wheel");
 const spinnerWheel = document.querySelector(".spin__wheel-spinner");
 const spinForm = document.querySelector(".spin__form");
-const experienceRadios = document.querySelectorAll('input[name="experience"]');
-const exerciseRadios = document.querySelectorAll('input[name="exercise"]');
 const spinAgainButton = document.querySelector(".modal__button");
 
 let currentRotation = 0;
