@@ -65,7 +65,6 @@ function spin(experienceLevel, exerciseType) {
     const randomExercise = getRandomExercise(experienceLevel, exerciseType);
     document.querySelector(".modal__workout-display").textContent =
       randomExercise;
-    modalOpen();
   }
 }
 
