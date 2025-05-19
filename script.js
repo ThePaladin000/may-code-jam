@@ -81,6 +81,7 @@ spinForm.addEventListener("submit", (e) => {
 
 spinAgainButton.addEventListener("click", () => {
   modalClose();
+  spinForm.reset();
 });
 
 // DO NOT DELETE NOTES
